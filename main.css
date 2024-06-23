@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+     
+    justify-content: space-around;
+    
+    min-height: 100vh;
+
+}
+
+@media only screen and (max-width: 1180px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    body{
+        background-color: blue;
+    }
+}
+
+
+@media only screen and (max-width: 590px) {
+    body{
+        background-color: brown;
+    }
+}
+
+
+
+
+.box {
+    width: 300px;
+    padding-bottom: 250px;
+    margin: 1%;
+    background-color: lightblue;
+    transition: width 0.5s, background-color 0.5s; 
+    
+}
+
+.bx{
+    display: flex;
+    
+    
+}
+
+@media  only screen and (max-width: 1200px) {
+    .bx{
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 30%;
+        background-color: lightgreen;
+    }
+}
+
+@media  only screen and (max-width: 1000px) {
+    .bx{
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 30%;
+        background-color: white;
+    }
+}
+
+
+@media  only screen and (max-width: 600px) {
+    .bx{
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 40%;
+       
+        background-color: lightcoral;
+    }
+}
+
+@media  only screen and (max-width: 440px) {
+
+    .bx{
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        width: 70%;
+        
+        background-color: lightslategrey;
+    }
+}
+
+
+
+
+
+
+
+
+
